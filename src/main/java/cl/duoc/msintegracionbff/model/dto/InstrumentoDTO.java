@@ -13,6 +13,6 @@ public class InstrumentoDTO {
     private int id;
     private String nombre;
     private String marca;
-    @JsonProperty("categoria")
+    @JsonProperty("categoria_instrumento")
     private CategoriaDTO categoria;
 }
